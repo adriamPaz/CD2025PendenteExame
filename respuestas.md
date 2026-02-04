@@ -13,3 +13,13 @@ Tras los cambios no hay errores al compilar con maven
 ![](/e1.png)
 
 Posteriormente he leído el programa para saber qué hace y he cambiado los nombres de las variables para que se entienda al primer vistazo.
+
+
+## EJ2
+He comentado las clases en formato javadoc. 
+A cotinuación he ejecutado el comando `mvn javadoc:javadoc` en la terminal, he solucionado los errores que me daba el maven y al volverlo a ejecutar se me ha generado el javadoc dentro de `target/reports/apidocs`
+#### Clase Pedido
+![](/e2Pedido.png)
+#### Clase Producto
+![](/e2Producto.png)
+

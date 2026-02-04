@@ -1,6 +1,15 @@
 package com.xulioxesus;
 
-class BubbleSort {    
+/**
+ * Clase que contiene un método de ordenación.
+ */
+
+class BubbleSort {
+    /**
+     * El método recibe una lista de números y su tamaño y los ordena.
+     * @param arrayDeNumeros
+     * @param elementosDelArray
+     */
     public void ordenar(int[] arrayDeNumeros, int elementosDelArray) {
         int elementosOrdenados;
         int posicion;
