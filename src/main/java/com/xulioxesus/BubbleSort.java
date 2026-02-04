@@ -1,25 +1,25 @@
 package com.xulioxesus;
 
-class BubbleSort{
-    
-    public void ordenar(int [] arr, int n)
-    {
-        int i, j, temp;
-        boolean swapped;
-        for (i = 0; i < n - 1; i++) {
-            swapped = false;
-            for (j = 0; j < n - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    
-                    temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
-                    swapped = true;
+class BubbleSort {    
+    public void ordenar(int[] arrayDeNumeros, int elementosDelArray) {
+        int elementosOrdenados;
+        int posicion;
+        int valorSuperior;
+        boolean cambioDeSitio;
+        for (elementosOrdenados = 0; elementosOrdenados < elementosDelArray - 1; elementosOrdenados++) {
+            cambioDeSitio = false;
+            for (posicion = 0; posicion < elementosDelArray - elementosOrdenados - 1; posicion++) {
+                if (arrayDeNumeros[posicion] > arrayDeNumeros[posicion + 1]) {
+                    valorSuperior = arrayDeNumeros[posicion];
+                    arrayDeNumeros[posicion] = arrayDeNumeros[posicion + 1];
+                    arrayDeNumeros[posicion + 1] = valorSuperior;
+                    cambioDeSitio = true;
                 }
             }
 
-            if (swapped == false)
+            if (!cambioDeSitio) {
                 break;
+            }
         }
     }
 }
