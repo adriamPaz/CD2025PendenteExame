@@ -23,3 +23,7 @@ A cotinuación he ejecutado el comando `mvn javadoc:javadoc` en la terminal, he 
 #### Clase Producto
 ![](/e2Producto.png)
 
+## EJ3
+He generado pruebas buscando los valores límite.
+Posteriormente ejecuté las pruebas en maven.
+![](/testPedido1.png)
